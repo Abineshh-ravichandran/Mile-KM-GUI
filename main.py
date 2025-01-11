@@ -14,7 +14,7 @@ entry.grid(row=0, column=1)
 
 def calculate():
     global km
-    user_input = int(entry.get())
+    user_input = float(entry.get())
     mile = user_input * 1.61
     kilo_meter.config(text=int(mile)
 
