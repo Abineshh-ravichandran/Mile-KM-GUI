@@ -16,7 +16,7 @@ def calculate():
     global km
     user_input = int(entry.get())
     mile = user_input * 1.61
-    kilo_meter.config(text=mile.__round__(2))
+    kilo_meter.config(text=int(mile)
 
 miles = Label(text=f"   Miles", font=FONT)
 miles.grid(row=0, column=2)
